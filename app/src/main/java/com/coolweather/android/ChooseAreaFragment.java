@@ -90,7 +90,7 @@ public class ChooseAreaFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (currentLevel == LEVEL_PROVINCE) {
                     selectedProvince = provinceList.get(position);
-                    Toast.makeText(getContext(), "测试", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getContext(), "测试", Toast.LENGTH_SHORT).show();
                     queryCities();
                 } else if (currentLevel == LEVEL_CITY) {
                     selectedCity = cityList.get(position);
